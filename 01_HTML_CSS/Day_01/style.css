@@ -1,0 +1,17 @@
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: red;
+}
+
+body{
+    background-image: url("https://th.bing.com/th?id=ORMS.ace0527e3907f48a56778b253a837d02&pid=Wdp&w=686&h=368&qlt=90&c=1&rs=1");
+     background-size: cover;     
+    background-repeat: no-repeat;    
+    background-position: center;     
+    background-attachment: fixed;
+}
