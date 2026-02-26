@@ -1,0 +1,8 @@
+
+table{
+    border: 2px dashed black;
+    background:linear-gradient(to bottom, rgb(242, 77, 234), rgb(98, 84, 227));
+}
+td{
+     border:none;
+}

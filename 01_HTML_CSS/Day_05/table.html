@@ -5,39 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <form>
-        <table border="1" align="center" cellpadding="10">
+        <table border="1" align="center" class="table" cellpadding="10">
 
-            <tr>
+            <tr class="rows">
                 <td>First Name</td>
-                <td><input type="text" maxlength="50"></td>
+                <td><input type="text" maxlength="50" name="firstname" placeholder="Enter your first name" required></td>
                 <td>(Maximum 50 characters are allowed)</td>
             </tr>
 
             <tr>
                 <td>Last Name</td>
-                <td><input type="text" maxlength="50" placeholder="Enter your last name"></td>
+                <td><input type="text" maxlength="50" name="lastname" placeholder="Enter your last name" required></td>
                 <td>(Maximum 50 characters are allowed)</td>
             </tr>
 
             <tr>
                 <td>Email Id</td>
-                <td><input type="email" placeholder="example@gmail.com"></td>
+                <td><input type="email" placeholder="example@gmail.com" name="email" required></td>
 
             </tr>
 
             <tr>
                 <td>Mobile Number </td>
-                <td><input type="tel" placeholder="7654xxxxxx"></td>
+                <td><input type="tel" placeholder="7654xxxxxx" name="phnumber" pattern="[0-9]{10}" required></td>
                 <td>(10 digits allowed)</td>
             </tr>
 
             <tr>
-                <td>Gender</td>
+                <td >Gender</td>
 
                 <td>
                     <label for="male">Male</label>
@@ -49,9 +50,9 @@
 
             </tr>
 
-            <tr>
+            <tr >
 
-                <td>Date of Birth</td>
+                <td >Date of Birth</td>
                 <td>
                     <select>
                         <option>Day</option>
@@ -78,23 +79,23 @@
 
             <tr>
                 <td>City</td>
-                <td><input type="text" maxlength="50"></td>
+                <td><input type="text" maxlength="50" name="city"></td>
                 <td>(Maximum 50 characters are allowed)</td>
             </tr>
             <tr>
                 <td>Pin Code</td>
-                <td><input type="number" maxlength="6"></td>
+                <td><input type="text"  pattern="[0-9]{6}" maxlength="6"name="pincode"></td>
                 <td>(Maximum 6 characters are allowed)</td>
             </tr>
             <tr>
                 <td>State</td>
-                <td><input type="text" maxlength="50"></td>
+                <td><input type="text" maxlength="50" name="state"></td>
                 <td>(Maximum 50 characters are allowed)</td>
             </tr>
 
             <tr>
                 <td>Country</td>
-                <td><input type="text" maxlength="50"></td>
+                <td><input type="text" maxlength="50" name="country"></td>
                 <td>(Maximum 50 characters are allowed)</td>
             </tr>
             <tr>
@@ -149,4 +150,4 @@
 
 </body>
 
-</html>
+</html>>
