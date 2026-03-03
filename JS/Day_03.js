@@ -11,7 +11,7 @@ let valueInNumber = Number(score)
 // "33" => 33
 
 // "33abc" => NaN
-
+//  value NaN is not a number but its type is number 
 //  true => 1; false => 0
 
 let isLoggedIn = 1
@@ -31,6 +31,7 @@ let stringNumber = String(someNumber)
 console.log(stringNumber);
 console.log(typeof stringNumber);
 
+//  ********************Operations***********************
 let value = 3
 let negative = -value
 // console.log(negValue);
