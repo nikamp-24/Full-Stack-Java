@@ -1,0 +1,69 @@
+// Primitive Data Types
+
+// 7 types : String , Number , Boolean , Null, Undefined , Symbol, BigInt
+
+const score = 100
+const scoreValue = 100.3
+
+const isLoggedIn = false
+const outsideTemp = null
+
+let userEmail;
+
+const id = Symbol('123')
+
+const anotherId = Symbol('123')
+
+console.log(id ===anotherId)
+const bigNumber = 3673484674783n
+
+
+
+// Reference (Non Primitive )
+
+// Array , Objects, Functions
+
+const heros = ["Shaktiman", "Nagraj", "Doga"];
+
+let myObj = {
+    name: "Pooja",
+    age: 21,
+}
+
+const myFunction = function(){
+    console.log("Hello world");
+}
+
+console.log(typeof bigNumber);
+
+console.log(typeof myObj)
+
+
+// *******************
+
+// stack (Primitive) , Heap (Non -Primitive)
+
+let myYouTubename = "CodewithPooja"
+
+let anothername = myYouTubename
+
+console.log(anothername);
+
+anothername = "chaiaurcode"
+
+console.log(myYouTubename);
+console.log(anothername);
+
+let userOne = {
+    email : "user@google.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "Pooja@google.com" 
+
+console.log(userOne.email)
+console.log(userTwo.email)
+
+
